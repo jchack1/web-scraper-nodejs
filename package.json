@@ -1,0 +1,14 @@
+{
+  "name": "web-scraper-interview-questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "j hack",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.3.0"
+  }
+}
