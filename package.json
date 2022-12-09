@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "node server.js"
+    "scrape": "node scraper.js",
+    "server": "node database.js"
   },
   "author": "j hack",
   "license": "ISC",

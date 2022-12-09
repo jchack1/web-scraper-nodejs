@@ -4,7 +4,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const Question = require("./models/Question");
-const questions = require("./questions.json");
+const questions = require("./questions3.json");
 require("dotenv").config();
 
 const main = async () => {

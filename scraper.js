@@ -19,13 +19,13 @@ const scraper = async () => {
           return;
 
         return {
-          question: e.querySelector(".Question__heading").innerText,
-          answer: e.querySelector(".Question__answer").innerText,
+          question: e.querySelector(".Question__heading").innerHTML,
+          answer: e.querySelector(".Question__answer").innerHTML,
         };
       })
     );
 
-    fs.writeFile("questions.json", JSON.stringify(questions), (err) => {
+    fs.writeFile("questions3.json", JSON.stringify(questions), (err) => {
       if (err) throw err;
       console.log("Complete");
     });
